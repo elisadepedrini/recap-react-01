@@ -1,0 +1,46 @@
+header {
+    background-color: #242630;
+    padding: 1rem 0.8rem;
+
+    p {
+        color: white;
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        font-size: 10px;
+        color: rgb(130, 128, 128);
+    }
+    a {
+        text-decoration: none;
+        color: #c9c9d1;
+        padding: 0 1rem;
+    }
+
+    .bi {
+        color: white;
+        padding: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+main {
+    background-color: #1a1a22;
+    padding: 2rem 0;
+
+    img {width: 4rem; }
+    h1 {color: whitesmoke; padding: 1rem 0;}
+
+    .btn-main {
+        color: rgb(73, 72, 72);
+        background-color: #59c4dc;
+        border-radius: 2rem;
+        font-weight: 600;
+        padding: 0.4rem 1rem;
+    }
+}
+
+footer {
+    background-color: #18181e;
+    min-height: 10rem;
+}
