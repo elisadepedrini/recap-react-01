@@ -18,9 +18,9 @@ export default function AppHeader({ navbar_menu }) {
             ))}
           </nav>
           <div className="icons d-flex flex-row justify-content-between align-items-center">
-            <div><i class="bi bi-brightness-high"></i></div>
-            <div><i class="bi bi-translate"></i></div>
-            <div><i class="bi bi-github"></i></div>
+            <div><i className="bi bi-brightness-high"></i></div>
+            <div><i className="bi bi-translate"></i></div>
+            <div><i className="bi bi-github"></i></div>
           </div>
         </div>
       </header>

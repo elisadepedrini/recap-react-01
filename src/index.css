@@ -16,7 +16,7 @@ header {
     }
 
     .bi {
-        color: white;
+        color: #c9c9d1;
         padding: 0 1rem;
         font-size: 1.5rem;
     }
@@ -29,7 +29,7 @@ main {
     padding: 2rem 0;
 
     img {width: 4rem; }
-    h1 {color: whitesmoke; padding: 1rem 0;}
+    h1 {color: #c9c9d1; padding: 1rem 0;}
 
     .btn-main {
         color: rgb(73, 72, 72);
@@ -38,9 +38,31 @@ main {
         font-weight: 600;
         padding: 0.4rem 1rem;
     }
+
+    .btn-main:hover {background-color: #ded840; color: black;}
 }
 
 footer {
     background-color: #18181e;
-    min-height: 10rem;
+    
+    .ul-footer {
+        padding-right: 2rem;
+        color: #c9c9d1;
+        
+        h2 {font-size: 16px;}
+
+        ul { padding-left: 0;}
+       
+    }
+    
+    
+    .list-footer {
+        list-style: none;
+
+        a {
+            color: #c9c9d1;
+            text-decoration: none;
+            font-size: 10px;
+        }
+    }
 }
