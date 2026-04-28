@@ -1,4 +1,4 @@
-export default function AppListFooter({ footer_list_title, menu }) {
+export default function AppListFooter({ footer_list_title, menu, icons }) {
   return (
     <>
       <div className="d-flex flex-column ul-footer">
@@ -13,6 +13,10 @@ export default function AppListFooter({ footer_list_title, menu }) {
             </li>
           ))}
         </ul>
+
+        <div className="icons">
+          {icons}
+        </div>
       </div>
     </>
   );
